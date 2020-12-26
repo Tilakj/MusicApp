@@ -24,9 +24,15 @@ Nav {
   }
 }
 
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  nav {
+    margin: 2rem;
+  }
+}
 
-@media screen and (max-width:768px) and (orientation: landscape){
-    nav {
-        margin: 2rem;
-      }
+.logo{
+     background: -webkit-linear-gradient(left,#BE4A7B, #FABA70);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
 }
