@@ -1,12 +1,16 @@
 Nav {
+  &.library-active{
+    box-shadow:none;
+    margin-left: 0%;
+  }
   min-height: 10vh;
+  width: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  // background-color: rgb(129, 129, 129);
-  box-shadow: 10px 1px 20px rgba(3, 3, 3, 0.178);
+  box-shadow: 5px 2px 15px rgba(100, 100, 100, 0.328);
   margin-bottom: 2rem;
-  transition: all 0.3s ease;
+  transition: all 0.9s ease;
   button {
     padding: 0.5rem;
     background: transparent;
@@ -19,12 +23,10 @@ Nav {
       color: white;
     }
   }
+  
+  
 }
 
-.library-active{
-  box-shadow: none;
-  background: none;
-}
 @media screen and (max-width: 768px) {
   nav {
     button {
@@ -39,9 +41,9 @@ Nav {
   }
 }
 
-.logo{
-     background: -webkit-linear-gradient(left,#BE4A7B, #FABA70);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2rem;
+.logo {
+  background: -webkit-linear-gradient(left, #be4a7b, #faba70);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
 }

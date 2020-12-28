@@ -48,7 +48,6 @@ const Player = ({
 
     // calc percentage
     const animationPercentage = Math.round(currentTime / duration * 100);
-    console.log(animationPercentage);
     setSongInfo({ ...songInfo, currentTime, duration, animationPercentage });
   };
   const dragHandler = e => {

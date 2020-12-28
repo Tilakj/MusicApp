@@ -5,7 +5,7 @@
   width: 25rem;
   height: 100%;
   background: white;
-  box-shadow: 10px 1px 20px rgba(3, 3, 3, 0.178);
+  box-shadow: 3px 1px 5px rgba(100, 100, 100, 0.328);
   overflow: scroll;
   transform: translateX(-100%);
   transition: all 0.5s ease;
@@ -13,6 +13,7 @@
   h2 {
     padding: 1.5rem;
   }
+  //   display: none;
 }
 
 .active-library{
