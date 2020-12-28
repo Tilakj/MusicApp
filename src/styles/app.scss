@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
+
 
 h1,
 h2,
@@ -11,6 +13,7 @@ h3 {
 }
 body {
   font-family: 'Lato', sans-serif;
+  background: #EFF1F6;
 }
 
 h3,
@@ -22,6 +25,7 @@ h4 {
 .App {
   transition: all 0.5s ease;
   height: 50%;
+ 
 }
 .library-active {
   margin-left: 20%;
